@@ -1,0 +1,86 @@
+body {
+	
+	background-color: #ffeaea;
+	padding: 75px;
+	margin: 10px;
+	text-indent: 10px;
+	font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+	text-align: center;
+	font-family: sans-serif;
+	color: rgb(250, 250, 250);
+	background-color: rgb(255, 0, 0);
+	border-style: double;
+	border-radius: 10px;
+	border-color: #3873b6 rgb(0, 162, 255) rgb(0, 195, 255) black;
+	width: 200;
+	text-shadow:  3px 3px rgb(0, 0, 0);
+}
+
+h2 {
+	text-align: right;
+}
+
+p {
+	border: #000000;
+	margin-left: 80px;
+	font-size: 14pt;
+	color: rgb(255, 9, 9);
+}
+
+li {
+	display: inline;
+}
+
+a:link, a:visited {
+	background-color: #e69690;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+  }
+  
+  a:hover, a:active {
+	background-color: red;
+  }
+
+a:visited {
+	color: rgb(2, 33, 34);
+}
+
+hr {
+	border-style: dashed;
+	color: #3873b6;
+}
+input[type=text], select {
+	border-color: #90bfe6;
+	background: scroll;
+	padding: 5px;
+}
+input[type=number], select {
+	border-color: #90bfe6;
+	background: scroll;
+	padding: 5px;
+}
+	input[type=date], select {
+border-color: #90bfe6;
+background-color: rgb(238, 131, 131);
+	}
+	input[type=submit], select {
+	background-color: rgb(255, 108, 108);
+	padding: 10px;
+
+}
+	input[type=reset], select {
+	background-color: rgb(255, 113, 113);
+padding: 10px;
+}
+img  {
+	float: unset;
+  }
+footer {
+float: right;
+}
